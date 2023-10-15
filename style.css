@@ -1,0 +1,39 @@
+*{
+    padding: 4px;
+    width: 50%;
+}
+
+
+button {
+    background-color: #a51b1b;
+    border: solid 1px gray;
+    border-radius: 5px;
+    padding: 5px;
+}
+button:hover {
+    background-color:slategray;
+    color:white;
+    cursor: pointer;
+}
+button:active {background-color:darkslategray}
+
+.love {background-color: rgb(248, 72, 131);
+    margin: 20px; 
+    padding: 10px;
+    border: 3px solid black;
+}
+
+.love[lang="en"] {background-color:darkblue; color:white}
+
+div > p {
+    background-color: darkgreen;
+}
+div:nth-child(even) {
+background-color: rgb(231, 228, 36);
+}
+
+
+
+#mydiv{
+    background-color: aqua;
+}
